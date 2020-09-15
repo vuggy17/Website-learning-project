@@ -122,15 +122,15 @@ nav .logo {
 nav .logo img {
   width: 180px;
 }
-nav ul {
+.head-navbar ul {
   list-style-type: none;
 }
-nav ul li {
+.list li {
   padding-left: 35px;
   display: inline-block;
   justify-content: space-around;
 }
-nav ul li a {
+.list li a {
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -139,7 +139,7 @@ nav ul li a {
   text-transform: capitalize;
   color: #fff;
 }
-nav ul li a:hover,
+.head-navbar ul li a:hover,
 a.active {
   padding: 4px 0px;
   border-bottom: 2px solid #edc6ff;
@@ -366,4 +366,29 @@ font-weight: 500;
 }
 .footer{
   background-image: linear-gradient(180deg, #090510, #231e3a);
+}
+.footer-link .list li{
+  padding-left: 0;
+}
+
+.footer-link .list{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-link a{
+  margin-left: 24px;
+  transition: color 400ms cubic-bezier(.165, .84, .44, 1);
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-link .list{
+  margin-left: 24px;
+  transition: color 400ms cubic-bezier(.165, .84, .44, 1);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
 }
