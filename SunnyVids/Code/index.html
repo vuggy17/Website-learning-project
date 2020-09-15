@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Home Page</title>
+</head>
+<!-- đổi màu và thu nhỏ menu khi cuộn -->
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0)
+    })
+</script>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#">sunnyvids</a>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li> <a href="#">home</a></li>
+                <li> <a href="#">faq</a></li>
+                <li> <a href="#">fandoms</a></li>
+                <li> <a href="#">resources</a></li>
+                <div class="dropdown">
+                    <li> <a href="#">follow me</a></li>
+                    <!-- begin dropdown -->
+                    <div class="dropdown-content">
+                        <a href="#">youtube</a>
+                        <a href="#">ask.fm</a>
+                        <a href="#">instagram</a>
+                        <a href="#">twitter</a>
+                        <a href="#">google+</a>
+                        <a href="#">tumblr</a>
+                    </div>
+                </div>
+                <!-- end dropdown -->
+                <li> <a href="#">donate!</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div id="banner-area">
+            <div id="banner" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+    <div id="content--warp">
+        <div id="text--warp">
+            <div class="column">
+                <div class="content-box">
+                    <div class="space-row"></div>
+                    <!-- <h2>this is content heading!</h2> -->
+                    <img src="/images/ảnh tạm.bmp" alt="profile picture" width="90px" ; height="100px" ;
+                        style="float:left">
+                    <div class="paragraph" style="width: 78%; margin-left: 22%;">
+                        <h2 style="text-align: left;">Hello there!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                            nemo molestias. Cumque iste
+                            dolore
+                            fugiat
+                            aspernatur vel recusandae. Amet officia minus quibusdam maiores. Non voluptatum magnam
+                            id
+                            est
+                            porro
+                            perspiciatis.</p>
+                    </div>
+
+                </div>
+                <div class="content-box">
+                    <h2 style="text-align: left;">About <span class="lg">SunnyVids</span></h2>
+                    <div class="paragraph" style="text-align: left;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus ipsam illum in
+                            tenetur,
+                            quidem
+                            distinctio minima? Necessitatibus perferendis deleniti quia atque labore quam
+                            consectetur
+                            repellat
+                            aut,
+                            alias adipisci vero?
+                        </p>
+                        <br>
+                        <a id="backup-chanel" href=#>Remember to follow my backup channel!</a>
+
+                    </div>
+                </div>
+
+                <div class="content-box footer">
+                    <h2>#fanvidfeed</h2>
+                    <img class="youtube-video" src="https://placehold.it/200x100" alt="fanvidfeed-video">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content-box">
+                    <!-- <div id="video--warp"> -->
+                    <h2 id="content--label">Recent Video</h2>
+                    <div id="video--warp">
+                        <img src="https://placehold.it/230x100" alt="video 1">
+                        <img src="https://placehold.it/230x100" alt="video 2">
+                        <img src="https://placehold.it/230x100" alt="video 3">
+                        <img src="https://placehold.it/230x100" alt="video 4">
+                    </div>
+                </div>
+
+                <div class="content-box footer">
+                    <h2>Thank you for 40k!</h2>
+                    <img class="youtube-video" src="https://placehold.it/200x100" alt="thankyou-video">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>This site was cloned 27/8/2020!</p>
+    </footer>
+</body>
+
+</html>
+</body>
+
+</html>
